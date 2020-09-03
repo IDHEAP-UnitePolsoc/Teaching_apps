@@ -21,6 +21,7 @@
 .Rproj.user/
 .Rproj.user
 rsconnect
+Teaching_apps.Rproj
 
 # produced vignettes
 vignettes/*.html
