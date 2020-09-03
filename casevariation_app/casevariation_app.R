@@ -50,7 +50,7 @@ server <- shinyServer(function(input, output) {
     Y <- a + b*X + rnorm(n,0,1000) # true DGP
 
     data <- data.frame(X,Y,k)
-    data <- data[data$X>-120 & data$X<120 & data$Y>510 & data$Y<13200,]
+    data <- data[data$X>-125 & data$X<125 & data$Y>510 & data$Y<13200,]
     print(range(data$X))
     print(range(data$Y))
     
