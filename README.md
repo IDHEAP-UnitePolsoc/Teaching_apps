@@ -6,5 +6,4 @@ Dashboards and other web applications for teaching. Includes:
 
  * In `gametheory_apps`:
   * `gametheory_app`: This app lets students play the Prisoner's Dilemma game (single round & repeated) against the computer and the Tragedy of the Commons (in three variants) against each other. It collects the results and stores them in a Googlesheet for later retrieval (Important: Googlesheet and account must be set up first!)
-
   * `gametheory_app_results`: Retrieves and presents the stored results of students' game theory plays. (Important: Googlesheet and account must be set up first!)
