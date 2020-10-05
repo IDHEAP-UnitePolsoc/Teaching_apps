@@ -1,0 +1,43 @@
+/** Change border color to white **/
+.extab>thead>tr>th {
+  border-color: rgb(140,140,140);
+}
+
+
+/** Remove borders within the table body **/
+.extab>tbody>tr>td {
+  border: none;
+}
+
+/** Add top border to first header row **/
+.extab thead tr:first-child {
+  border-top: 2px solid rgb(140,140,140);
+}
+
+
+/** Add a bottom border to last header row **/
+.extab thead tr:nth-of-type(1) {
+  border-bottom: 2px solid rgb(140,140,140);
+}
+
+
+/** Add a bottom border to the table body **/
+.extab tbody tr:last-child {
+  border-bottom: 2px solid black;
+}
+
+/** Add padding to table cells & format alignment **/
+.extab td, th{
+  padding: 5px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+/** Make the table header row a normal weight; not bold **/
+.extab th{
+  font-weight: normal;
+}
+
+text {
+     font-family: helvetica,arial,sans-serif;
+}
