@@ -42,3 +42,5 @@ vignettes/*.pdf
 .Renviron
 
 .secrets
+
+.DS_STORE
